@@ -1,0 +1,113 @@
+/.venv
+/.env
+*.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# Mac
+.DS_Store
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+.vscode
+
+# data
+data/mariadb/*
+data/minio/*
+data/spark/notebooks/.ipynb_checkpoints
+data/spark/notebooks/metastore_db
+data/spark/notebooks/derby.log
+data/spark/warehouse/*
+data/stage/*
+data/trino/*
+data/postgres/*
+data/dremio/*
+data/elasticsearch/*
+data/metabase/*
+data/backup/*
+data/html/index.*.html
+
+# logs
+log/*
+projects/dbt/**/logs
+projects/dbt/**/dbt_packages
+projects/dbt/**/target
+
+# conf
+conf/**/*.jks
+conf/**/*.crt
+conf/cube/.cubestore
+
+# python
+
+**/__pycache__
+
+# JetBrains
+**/.idea
+
+# Dagster
+projects/dagster/*.log
+projects/dagster/metastore_db
+
+# Metabase
+conf/metabase/metabase.db.trace.db
